@@ -1,4 +1,4 @@
 #!/bin/bash
 
 Date=$(date)
-echo "scrip started: ${DATE}"
+echo "scrip started: $DATE "
