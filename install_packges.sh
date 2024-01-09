@@ -14,3 +14,18 @@ else
 fi
 
 echo "All arguments passed: $@"
+
+for package in $@
+do 
+yum list intalled $package 
+ if [ $? -ne 0]
+ then
+     yum insatall $package -y
+     validate $? "Instalation of $paxkage"
+ else
+     echo -e "package is already installed  ... $Y skipping $N"
+  if
+     
+
+
+done
