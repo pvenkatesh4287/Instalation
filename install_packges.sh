@@ -7,7 +7,7 @@ N="\e[0m"
 
 if [ $ID -ne 0 ]
 then
-    echo  -e "$R Error:: please run this script with roor access $N"
+    echo  -e "$R Error:: please run this script with root access $N"
     exit 1
 else
     echo "You are root user"
