@@ -24,8 +24,6 @@ yum list intalled $package
      validate $? "Instalation of $paxkage"
  else
      echo -e "package is already installed  ... $Y skipping $N"
-  if
-     
-
-
+  fi
+   
 done
